@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float turnSpeed = 20f;
-    public float sprintMultiplier = 2f; //sprinting
+    public float sprintMultiplier = 3f; //sprinting
 
     Animator m_Animator;
     Rigidbody m_Rigidbody;
