@@ -36,7 +36,7 @@ public class PlayerMovement : MonoBehaviour
             m_Movement *= sprintMultiplier;
         }
 
-        
+        //m_Movement.Normalize();
         //end sprinting
 
         bool hasHorizontalInput = !Mathf.Approximately(horizontal, 0f);
